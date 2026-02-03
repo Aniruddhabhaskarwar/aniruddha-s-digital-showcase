@@ -137,20 +137,53 @@ export const siteContent = {
     },
     certifications: [
       {
-        name: "Machine Learning Specialization",
-        issuer: "Stanford University / Coursera",
+        name: "Supervised Machine Learning: Regression and Classification",
+        issuer: "DeepLearning.AI & Stanford University",
+        date: "Jul 2025",
+        verifyUrl: "https://coursera.org/verify/6XHWBQHT1JC2",
+      },
+      {
+        name: "Advanced Learning Algorithms",
+        issuer: "DeepLearning.AI & Stanford University",
+        date: "Aug 2025",
+        verifyUrl: "https://coursera.org/verify/A40J8NOFIF15",
+      },
+      {
+        name: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        issuer: "DeepLearning.AI & Stanford University",
+        date: "Sept 2025",
+        verifyUrl: "https://coursera.org/verify/A40J8NOFIF15",
+      },
+      {
+        name: "Foundations of User Experience (UX) Design",
+        issuer: "Google / Coursera",
+        date: "Apr 2023",
+        verifyUrl: "https://coursera.org/verify/MUCPM8HT4CKT",
+      },
+      {
+        name: "Start the UX Design Process: Empathize, Define, and Ideate",
+        issuer: "Google / Coursera",
+        date: "Jul 2023",
+        verifyUrl: "https://coursera.org/verify/6JLXRAWH ZNVG",
+      },
+      {
+        name: "CSS, Bootstrap, JavaScript, Web Development Course",
+        issuer: "Udemy",
+        date: "Jan 2024",
+        verifyUrl: "https://ude.my/UC-804e62ab-527b-4086-a615-0747c60182dc",
+      },
+      {
+        name: "NFT's with ICP Blockchain (Copyright)",
+        issuer: "Intellectual Property India",
+        date: "Jul 2024",
+        verifyUrl: "#",
+        registrationNo: "L-150187/2024",
       },
       {
         name: "SQL 50",
         issuer: "LeetCode",
-      },
-      {
-        name: "Hackathon 2020-21",
-        issuer: "Competition",
-      },
-      {
-        name: "NFT Project",
-        issuer: "IP India",
+        date: "2024",
+        verifyUrl: "#",
       },
     ],
   },
