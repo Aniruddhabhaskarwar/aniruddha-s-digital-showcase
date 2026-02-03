@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Download, MapPin } from "lucide-react";
 import { siteContent } from "@/lib/content";
 import { Button } from "@/components/ui/button";
+import bitmojiImage from "@/assets/bitmoji.jpeg";
 
 export const Hero = () => {
   const scrollToProjects = () => {
@@ -20,11 +21,32 @@ export const Hero = () => {
 
       <div className="section-container relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Bitmoji Avatar */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="mb-6 flex justify-center"
+          >
+            <div className="relative">
+              <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl shadow-primary/20">
+                <img
+                  src={bitmojiImage}
+                  alt="Aniruddha Bhaskarwar"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-lg">
+                👋
+              </div>
+            </div>
+          </motion.div>
+
           {/* Greeting */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             className="text-primary font-medium mb-4"
           >
             {siteContent.hero.greeting}
