@@ -130,10 +130,10 @@ export const Hero = () => {
               <ArrowDown className="w-4 h-4 ml-2" />
             </Button>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1APF7TR6zaXrTvt9ITKbJte7CLU3dTMJE/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Resume (PDF)"
+              aria-label="View Resume PDF"
               className="inline-flex items-center justify-center rounded-md px-8 h-11 text-sm font-medium border border-border bg-background hover:bg-secondary transition-colors"
             >
               <FileText className="w-4 h-4 mr-2" />

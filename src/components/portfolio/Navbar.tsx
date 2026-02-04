@@ -60,10 +60,10 @@ export const Navbar = () => {
               </button>
             ))}
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1APF7TR6zaXrTvt9ITKbJte7CLU3dTMJE/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Resume (PDF)"
+              aria-label="View Resume PDF"
               className="inline-flex items-center justify-center rounded-md px-4 h-9 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >
               <FileText className="w-4 h-4 mr-2" />
@@ -106,10 +106,10 @@ export const Navbar = () => {
                 </button>
               ))}
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1APF7TR6zaXrTvt9ITKbJte7CLU3dTMJE/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Resume (PDF)"
+                aria-label="View Resume PDF"
                 className="inline-flex items-center justify-center w-full mt-4 rounded-md px-4 h-10 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >
                 <FileText className="w-4 h-4 mr-2" />

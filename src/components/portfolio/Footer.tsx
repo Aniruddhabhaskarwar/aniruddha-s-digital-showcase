@@ -16,9 +16,10 @@ export const Footer = () => {
           <p>{siteContent.footer.copyright}</p>
           <div className="flex items-center gap-4">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1APF7TR6zaXrTvt9ITKbJte7CLU3dTMJE/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="View Resume PDF"
               className="hover:text-primary transition-colors"
             >
               View Resume
