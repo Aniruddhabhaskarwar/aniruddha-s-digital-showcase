@@ -46,7 +46,7 @@ export const Navbar = () => {
             className="text-xl font-bold gradient-text"
             whileHover={{ scale: 1.02 }}
           >
-            {siteContent.personal.name.split(" ")[0]}
+            {siteContent.personal.name}
           </motion.a>
 
           {/* Desktop Navigation */}
