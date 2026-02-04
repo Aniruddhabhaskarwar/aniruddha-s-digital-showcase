@@ -38,19 +38,19 @@ export const siteContent = {
     categories: [
       {
         name: "Languages",
-        items: ["Python", "SQL", "JavaScript", "TypeScript"],
+        items: ["Python", "SQL"],
       },
       {
         name: "Backend",
-        items: ["Django", "FastAPI", "PostgreSQL", "REST APIs"],
+        items: ["Django", "FastAPI", "Flask", "PostgreSQL", "REST APIs"],
       },
       {
         name: "Data & ML",
-        items: ["Pandas", "NumPy", "TensorFlow", "Matplotlib", "Seaborn"],
+        items: ["Pandas", "NumPy", "TensorFlow", "Matplotlib", "Seaborn", "Power BI"],
       },
       {
         name: "Tools",
-        items: ["Git", "Docker", "Linux", "VS Code"],
+        items: ["Git", "GitHub", "Linux", "VS Code"],
       },
     ],
   },
