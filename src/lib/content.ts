@@ -20,7 +20,7 @@ export const siteContent = {
     ],
     cta: {
       primary: "View Projects",
-      secondary: "Download Resume",
+      secondary: "View Resume",
     },
   },
 
