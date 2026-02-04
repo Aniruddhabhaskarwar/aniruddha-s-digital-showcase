@@ -14,10 +14,20 @@ export const Footer = () => {
           className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground"
         >
           <p>{siteContent.footer.copyright}</p>
-          <p className="flex items-center gap-1">
-            {siteContent.footer.tagline.replace(".", "")}
-            <Heart className="w-4 h-4 text-primary fill-primary" />
-          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              View Resume
+            </a>
+            <p className="flex items-center gap-1">
+              {siteContent.footer.tagline.replace(".", "")}
+              <Heart className="w-4 h-4 text-primary fill-primary" />
+            </p>
+          </div>
         </motion.div>
       </div>
     </footer>

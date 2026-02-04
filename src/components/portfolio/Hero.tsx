@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Eye, MapPin } from "lucide-react";
+import { ArrowDown, MapPin, FileText } from "lucide-react";
 import { siteContent } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import bitmojiImage from "@/assets/bitmoji.jpeg";
@@ -129,21 +129,16 @@ export const Hero = () => {
               {siteContent.hero.cta.primary}
               <ArrowDown className="w-4 h-4 ml-2" />
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-border hover:bg-secondary px-8"
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Resume (PDF)"
+              className="inline-flex items-center justify-center rounded-md px-8 h-11 text-sm font-medium border border-border bg-background hover:bg-secondary transition-colors"
             >
-              <a
-                href={siteContent.personal.resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Eye className="w-4 h-4 mr-2" />
-                {siteContent.hero.cta.secondary}
-              </a>
-            </Button>
+              <FileText className="w-4 h-4 mr-2" />
+              View Resume
+            </a>
           </motion.div>
         </div>
 
