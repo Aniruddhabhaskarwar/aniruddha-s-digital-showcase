@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, FileText } from "lucide-react";
 import { siteContent } from "@/lib/content";
-import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,20 +59,16 @@ export const Navbar = () => {
                 {item.name}
               </button>
             ))}
-            <Button
-              asChild
-              size="sm"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Resume (PDF)"
+              className="inline-flex items-center justify-center rounded-md px-4 h-9 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >
-              <a
-                href={siteContent.personal.resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </a>
-            </Button>
+              <FileText className="w-4 h-4 mr-2" />
+              View Resume
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,19 +105,16 @@ export const Navbar = () => {
                   {item.name}
                 </button>
               ))}
-              <Button
-                asChild
-                className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground"
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Resume (PDF)"
+                className="inline-flex items-center justify-center w-full mt-4 rounded-md px-4 h-10 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >
-                <a
-                  href={siteContent.personal.resumeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </a>
-              </Button>
+                <FileText className="w-4 h-4 mr-2" />
+                View Resume
+              </a>
             </div>
           </motion.div>
         )}
