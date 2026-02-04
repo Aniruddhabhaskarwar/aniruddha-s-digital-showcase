@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, MapPin } from "lucide-react";
+import { ArrowDown, Eye, MapPin } from "lucide-react";
 import { siteContent } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import bitmojiImage from "@/assets/bitmoji.jpeg";
@@ -140,7 +140,7 @@ export const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Download className="w-4 h-4 mr-2" />
+                <Eye className="w-4 h-4 mr-2" />
                 {siteContent.hero.cta.secondary}
               </a>
             </Button>
