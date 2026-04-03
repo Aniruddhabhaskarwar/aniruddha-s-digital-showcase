@@ -42,7 +42,7 @@ export const siteContent = {
       },
       {
         name: "Backend",
-        items: ["Django", "FastAPI", "Flask", "PostgreSQL", "REST APIs"],
+        items: ["Django", "FastAPI", "Flask", "PostgreSQL", "REST APIs", "Supabase"],
       },
       {
         name: "Data & ML",
