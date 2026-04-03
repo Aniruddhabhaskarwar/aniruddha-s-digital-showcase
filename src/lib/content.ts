@@ -108,10 +108,19 @@ export const siteContent = {
     title: "Featured Projects",
     items: [
       {
-        title: "Scalable Student Attendance & Management System (SaaS)",
-        description: "Engineered a serverless attendance and student management system using Vercel and Supabase, handling 1200+ student records with real-time data operations. Designed multi-class, role-based data architecture with secure access controls (RLS), reducing administrative effort by 70%+.",
+        title: "Profitability Forecast for Coaching Classes",
+        description: "ML-powered forecasting model that predicts business profitability and provides actionable insights for coaching class businesses.",
+        impact: "+35% footfall, +24% profit",
+        stack: ["Python", "TensorFlow", "Pandas", "Matplotlib", "Seaborn"],
+        liveUrl: "https://profitabilityprediction.vercel.app",
+        githubUrl: "#",
+        image: "/placeholder.svg",
+      },
+      {
+        title: "Student Attendance & Management System",
+        description: "Serverless attendance system built with Vercel and Supabase, managing 1200+ students with real-time tracking across multiple classes.",
         impact: "-70% admin effort, 1200+ students",
-        stack: ["Vercel", "Supabase", "React", "PostgreSQL", "RLS"],
+        stack: ["Vercel", "Supabase", "React", "PostgreSQL"],
         liveUrl: "https://attendance-buddy-nine.vercel.app",
         githubUrl: "#",
         image: "/placeholder.svg",
