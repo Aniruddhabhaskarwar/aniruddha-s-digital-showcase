@@ -59,6 +59,16 @@ export const siteContent = {
     title: "Experience",
     jobs: [
       {
+        company: "Freelance",
+        role: "Freelance Software Developer",
+        period: "Jan 2026 - Present",
+        description: "Built a serverless attendance system (Vercel + Supabase) managing 1200+ students, enabling real-time tracking of attendance and fees across multiple classes.",
+        highlights: [
+          "Implemented secure multi-tenant architecture and automated workflows",
+          "Reduced manual effort by 70%+ with scalable, cost-efficient deployment",
+        ],
+      },
+      {
         company: "Patil's Classes",
         role: "ML Developer Intern",
         period: "Sept 2025 - Dec 2025",
