@@ -14,9 +14,10 @@ export const siteContent = {
     greeting: "Hi, I'm",
     description: "I specialize in Python development, backend systems, and analytics solutions that transform raw data into actionable business insights.",
     metrics: [
+      { value: "-70%", label: "Admin Work Reduced" },
+      { value: "1200+", label: "Students Managed" },
       { value: "+35%", label: "Footfall Increase" },
       { value: "+24%", label: "Profit Growth" },
-      { value: "-60%", label: "Manual Work Reduced" },
     ],
     cta: {
       primary: "View Projects",
