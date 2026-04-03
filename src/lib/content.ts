@@ -42,7 +42,7 @@ export const siteContent = {
       },
       {
         name: "Backend",
-        items: ["Django", "FastAPI", "Flask", "PostgreSQL", "REST APIs"],
+        items: ["Django", "FastAPI", "Flask", "PostgreSQL", "REST APIs", "Supabase"],
       },
       {
         name: "Data & ML",
@@ -50,7 +50,7 @@ export const siteContent = {
       },
       {
         name: "Tools",
-        items: ["Git", "GitHub", "Linux", "VS Code"],
+        items: ["Git", "GitHub", "Linux", "VS Code", "Vercel", "Supabase"],
       },
     ],
   },
@@ -58,6 +58,16 @@ export const siteContent = {
   experience: {
     title: "Experience",
     jobs: [
+      {
+        company: "Freelance",
+        role: "Freelance Software Developer",
+        period: "Jan 2026 - Present",
+        description: "Built a serverless attendance system (Vercel + Supabase) managing 1200+ students, enabling real-time tracking of attendance and fees across multiple classes.",
+        highlights: [
+          "Implemented secure multi-tenant architecture and automated workflows",
+          "Reduced manual effort by 70%+ with scalable, cost-efficient deployment",
+        ],
+      },
       {
         company: "Patil's Classes",
         role: "ML Developer Intern",
@@ -98,11 +108,11 @@ export const siteContent = {
     title: "Featured Projects",
     items: [
       {
-        title: "Profitability Forecast for Coaching Classes",
-        description: "ML-powered forecasting model that predicts business profitability and provides actionable insights for coaching class businesses.",
-        impact: "+35% footfall, +24% profit",
-        stack: ["Python", "TensorFlow", "Pandas", "Matplotlib", "Seaborn"],
-        liveUrl: "https://profitabilityprediction.vercel.app",
+        title: "Scalable Student Attendance & Management System (SaaS)",
+        description: "Engineered a serverless attendance and student management system using Vercel and Supabase, handling 1200+ student records with real-time data operations. Designed multi-class, role-based data architecture with secure access controls (RLS), reducing administrative effort by 70%+.",
+        impact: "-70% admin effort, 1200+ students",
+        stack: ["Vercel", "Supabase", "React", "PostgreSQL", "RLS"],
+        liveUrl: "https://attendance-buddy-nine.vercel.app",
         githubUrl: "#",
         image: "/placeholder.svg",
       },
