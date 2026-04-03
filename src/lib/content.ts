@@ -7,7 +7,7 @@ export const siteContent = {
     email: "aniruddhabhaskarwar7@gmail.com",
     linkedin: "https://www.linkedin.com/in/aniruddha-bhaskarwar",
     github: "https://github.com/aniruddha-bhaskarwar",
-    resumeUrl: "https://drive.google.com/file/d/1APF7TR6zaXrTvt9ITKbJte7CLU3dTMJE/view?usp=drivesdk",
+    resumeUrl: "https://drive.google.com/file/d/190kjNPxqePP5IyUKYzlTkho08IzHK7ko/view?usp=drivesdk",
   },
 
   hero: {
