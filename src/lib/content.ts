@@ -50,7 +50,7 @@ export const siteContent = {
       },
       {
         name: "Tools",
-        items: ["Git", "GitHub", "Linux", "VS Code"],
+        items: ["Git", "GitHub", "Linux", "VS Code", "Vercel", "Supabase"],
       },
     ],
   },
